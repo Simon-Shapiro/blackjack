@@ -25,7 +25,6 @@ Console.WriteLine("Type 'yes' or 'no'.");
 playGame = Console.ReadLine();
 
 //TO-DO:
-//1 output game rules
 //2 create outer loop for playgame value of 'yes'or 'no'
 //3 create inner loop for draw card = 'yes'or 'no'
 
@@ -42,8 +41,11 @@ do
     Console.WriteLine("If the sum of your cards exceeds 21, you lose. If your opponent's hand is closer to 21 than yours, you lose.");
     Console.WriteLine("If you beat your opponent's hand without going over 21, you win!");
 
+    //draw the player's first card
     firstCard = card.Next(1, 14);
-
+    
+    //add the value of the first card to the total of the player's hand
+    playerCardTotal += firstCard;
 
     switch (firstCard)
     {
@@ -98,7 +100,6 @@ do
         case 13:
         Console.WriteLine("Your first card is a King");
         break;
-
     }
 
 
