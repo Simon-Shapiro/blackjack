@@ -26,4 +26,9 @@ playGame = Console.ReadLine();
 //2 create outer loop for playgame value of 'yes'or 'no'
 //3 create inner loop for draw card = 'yes'or 'no'
 
+//Game Loop
+do
+{
+
+} while (playGame == "yes");
 
