@@ -17,6 +17,13 @@ int opponentCardTotal = 0;
 
 Console.WriteLine("Would you like to play blackjack?");
 Console.WriteLine("Type 'yes' or 'no'.");
+
+//TO_DO : cast playgame value .ToLower
 playGame = Console.ReadLine();
+
+//TO-DO:
+//1 output game rules
+//2 create outer loop for playgame value of 'yes'or 'no'
+//3 create inner loop for draw card = 'yes'or 'no'
 
 
